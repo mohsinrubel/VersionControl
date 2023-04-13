@@ -1,0 +1,40 @@
+Let's learn about GIT and First-Time Git Setup 👇
+
+What is Git?
+
+Git is an open-source distributed version control system. It is designed to handle minor to major projects with high speed and efficiency. It is developed to coordinate the work among the developers. The version control allows us to track and work together with our team members in the same workspace.
+
+Git is the foundation of many services like GitHub and GitLab, but we can use Git without using any other Git services. Git can be used privately and publicly.
+
+Git was created by Linus Torvalds in 2005 to develop Linux Kernel. It is also used as an important distributed version-control tool for DevOps.
+
+Git is easy to learn and has fast performance. It is superior to other SCM tools like Subversion, CVS, Perforce, and ClearCase.
+
+This tutorial will help you to understand the distributed version control system Git via the command line as well as with GitHub.
+
+The examples in this tutorial are performed on Linux systems.
+
+You have signup or login to your GitHub Account for reference on how to create a GitHub account:- https://lnkd.in/d3v_QfMK
+
+
+Step1. Create two Linux servers in two different regions.
+Reference link:- https://lnkd.in/dDPFdp7k
+
+
+Step2. Install git software on their system.
+
+Step3. Do global configuration is used to set Git configuration values on a global or local project level.
+
+Step4. Initialise a git repository locally using the git init command and create a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+
+Step5. Create a file in the local repo then used a Git add a command to add file contents to the Index (Staging Area). This command updates the current content of the working tree to the staging area. It also prepares the staged content for the next commit. Every time we add or update any file in our project, it is required to forward updates to the staging area.
+
+Step6. Git Commit It is used to record the changes in the repository. It is the next command after the git add. Every commit contains the index data and the commit message. Every commitment forms a parent-child relationship. When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.
+
+Step7. Check your remote connection and the configuration of the remote server, and run the git remote command. The git remote command allows accessing the connection between the remote and local.
+
+Step8. Generate a Token in a GitHub for password authentication.
+
+Step9. Git Push the pushes term refers to uploading local repository content to a remote repository. Pushing is an act of transferring commits from your local repository to a remote repository.
+
+Step10. Verify the commits in GitHub Central Repository.

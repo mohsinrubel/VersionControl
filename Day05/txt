@@ -1,0 +1,27 @@
+Learning GIT (Version Control System) [Day 5] 🚀
+
+Let's learn about the Tagging Known concept, Reverting Changes, and Branch Merging Conflicts 👇
+
+✅ Tagging known commits
+
+◽ $ git tag --> List all tags.
+
+◽ $ git tag [name] [commit sha] --> Create a tag reference named name for the current commit. Add commit sha to tag a specific commit instead of the current one.
+
+◽ $ git tag -a [name] [commit sha] --> Create a tag object named name for the current commit.
+
+◽ $ git tag -d [name] --> Remove a tag from the local repository.
+
+✅ Reverting changes
+
+◽ $ git reset [--hard] [target reference] -->
+Switches the current branch to the target reference, leaving a difference as an uncommitted change. When --hard is used, all changes are discarded.
+
+◽ $ git reset [file] --> Revert your repository to a previously known working state
+
+◽ $ git revert [commit sha] -->
+Create a new commit, reverting changes from the specified commit. It generates an inversion of changes
+
+✅ Branch Merging Conflicts
+
+◽ Modifying files data means arranging data and doing commit as resolve commit and push to a central repository.

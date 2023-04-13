@@ -1,0 +1,37 @@
+Learning GIT (Version Control System) [Day 4] 🚀
+
+Let's learn about the Starting A Project, Temporary Commits, Tracking Path Changes & Help Commands 👇
+
+✅ Starting A Project
+
+◽ $ git clone [project url] --> Downloads a project with the entire history from the remote repository
+
+◽ $ git fetch [remote] --> Fetch changes from the remote, but do not update tracking branches
+
+◽ $ git rebase [branch] --> apply any commits of the current branch ahead of the specified one
+
+✅ Temporary Commits
+
+◽ $ git stash --> Put current changes in your working directory into the stash for later use.
+
+◽ $ git stash list --> list stack-order of stashed file changes
+
+◽ $ git stash pop Apply --> stored stash content into the working directory, and clear stash.
+
+◽ $ git stash drop --> Delete a specific stash from all your previous stashes.
+
+✅ TRACKING PATH CHANGES
+
+Versioning file removes and path changes
+
+◽ $ git rm [file] --> Remove the file from the working directory and staging area.
+
+◽ $ git mv [existing-path] [new-path] --> change an existing file path and stage the move
+
+◽ $ git log --stat -M --> show all commit logs with an indication of any paths that move
+
+✅ HELP
+
+◽ $ git help --> Display help information about Git
+
+◽ $ git (Command) help --> Display help information about Git Command

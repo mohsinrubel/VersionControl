@@ -1,0 +1,25 @@
+Learning GIT (Version Control System) [Day 3] 🚀
+
+Let's learn about the Ignoring Files concept, Branch and Merge Concept👇
+
+✅ BRANCH & MERGE
+
+Isolating work in branches, changing context, and integrating changes
+
+➡ git branch -> list your branches. a * will appear next to the currently active branch
+➡ git branch [branch-name] -> create a new branch at the current commit
+➡ git checkout -> switch to another branch and check it out in your working directory
+➡ git merge [branch] -> merge the specified branch’s history into the current one
+➡ git log -> shows all commits in the current branch’s history
+
+
+✅ Ignoring Files
+
+➡ $ cat .gitignore
+/logs/*
+!logs/.gitkeep
+/tmp
+*.swp
+
+Verify the .gitignore file exists in your project and ignore certain types of files, such as all files in the logs directory (excluding the .gitkeep file),
+ the whole tmp directory and all files *.swp. File ignoring will work for the directory (and children's directories) where the .gitignore file is placed.
